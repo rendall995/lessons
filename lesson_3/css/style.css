@@ -1,0 +1,121 @@
+/**?------------------NULLSTYLE--------------------------?**/
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+
+textarea,
+button,
+input {
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+
+button {
+	cursor: pointer;
+	background-color: inherit;
+}
+
+/*------------------------------------*/
+
+[class="*__container"] {
+	color: rgb(86, 3, 3);
+}
+
+/*------------------------------------*/
+
+/**---------------------------HEADER--------------------------------**/
+
+.header__block {
+	color: rgb(144, 144, 17);
+}
+
+.header__block h1 {
+	color: rgb(24, 40, 2);
+}
+
+.header__block>p {
+	color: red;
+}
+
+.header__block~p {
+	color: red;
+}
+
+.block-header-01 span {
+	color: rgb(0, 74, 234);
+}
+
+#p_orange {
+	color: rgb(255, 153, 0);
+}
+
+/**---------------------------MAIN--------------------------------**/
+
+.text,
+.text-in {
+	color: rgb(252, 0, 243);
+}
+
+.page-block+p {
+	color: inherit;
+}
+
+.block-page-02>p {
+	color: rgb(2, 255, 141);
+}
+
+/*------------------------------------*/
+.nav-link {
+	color: green;
+}
+
+/*------------------------------------*/
+
+.text-02~p {
+	color: rgb(1, 190, 248);
+}
+
+.second.first {
+	color: rgb(90, 2, 185);
+}
+
+.area * {
+	color: rgb(255, 3, 3);
+}
