@@ -1,0 +1,194 @@
+@import url("reset.css");
+
+[class*="__container"] {
+	text-align: center;
+	max-width: 1440px;
+	padding: 0 20px;
+	margin: 0 auto;
+	font-family: "Inter";
+	font-size: 20px;
+}
+
+* p {
+	line-height: 1.8;
+}
+
+.title {
+	font-family: "Playfair+Display";
+	text-transform: uppercase;
+	font-size: 30px;
+	text-decoration: underline;
+
+}
+
+/***                  FONTS   GOOGLE                 ***/
+
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Mulish:300,regular,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap);
+
+
+/***                  FONTS   IMPORT              ***/
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeue-Thin.woff2') format('woff2'),
+		url('../fonts/BebasNeue-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueLight.woff2') format('woff2'),
+		url('../fonts/BebasNeueLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue Book';
+	src: url('../fonts/BebasNeueBook.woff2') format('woff2'),
+		url('../fonts/BebasNeueBook.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nautilus Pompilius';
+	src: url('../fonts/NautilusPompilius.woff2') format('woff2'),
+		url('../fonts/NautilusPompilius.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeue-Thin.woff2') format('woff2'),
+		url('../fonts/BebasNeue-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueBold.woff2') format('woff2'),
+		url('../fonts/BebasNeueBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue Book';
+	src: url('../fonts/BebasNeueBook.woff2') format('woff2'),
+		url('../fonts/BebasNeueBook.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeue-Light.woff2') format('woff2'),
+		url('../fonts/BebasNeue-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+		url('../fonts/BebasNeueRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueBold.woff2') format('woff2'),
+		url('../fonts/BebasNeueBold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+		url('../fonts/BebasNeueRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Boomboom';
+	src: url('../fonts/Boomboom.woff2') format('woff2'),
+		url('../fonts/Boomboom.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/***                  Header               ***/
+
+.p-bold {
+	font-weight: 700;
+}
+
+.p-regular {
+	font-weight: 500;
+}
+
+.span-bold {
+	font-weight: 700;
+}
+
+
+/***                  PAGE --BLOCK-01--               ***/
+
+.block-01 {
+	font-family: "Mulish";
+}
+
+.p-underline {
+	text-decoration: underline;
+	letter-spacing: 10px;
+}
+
+.p-overline {
+	text-decoration: overline;
+}
+
+.block-01-list {
+	text-decoration: line-through;
+	text-shadow: 1px 4px 5px rgb(0, 140, 255), -4px -2px 2px rgb(187, 0, 255);
+}
+
+.list-item {
+	color: rgba(17, 0, 255, 0.8);
+	font-weight: 700;
+	font-style: italic;
+}
+
+/***                  PAGE --BLOCK-02--               ***/
+
+.p-ff-01 {
+	font-family: "Bebas Neue";
+}
+
+.p-ff-02 {
+	font-family: "Boomboom";
+}
+
+.p-ff-03 {
+	font-family: "Nautilus Pompilius";
+}
