@@ -1,0 +1,126 @@
+@import url("reset.css");
+
+[class*="__container"] {
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+
+/**                               BEM                                  **/
+
+.title {
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 40px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.title span {
+	display: inline-block;
+	text-transform: none;
+}
+
+/**                               HEADER                               **/
+
+.header {
+	background: rgb(128, 132, 16);
+}
+
+.content-svg {
+	padding: 50px 0px;
+}
+
+.content-svg__item {
+	margin: 0 auto 60px;
+	display: flex;
+	column-gap: 50px;
+	justify-content: center;
+}
+
+.content-svg__item img {
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+.content-svg__item img:hover {
+	transform: scale(1.5);
+	transition: all 1s ease;
+}
+
+.content-svg__item:last-child {
+	margin-bottom: 0px;
+}
+
+/**                               PAGE                               **/
+
+.page {
+	background: rgb(240, 113, 113);
+}
+
+.content-jpg {
+	padding: 50px 0px;
+}
+
+.content-jpg__item {
+	margin: 0 auto 60px;
+	column-gap: 50px;
+	row-gap: 50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.content-jpg__item img {
+	cursor: pointer;
+	transition: all 1s ease;
+	align-self: flex-start;
+	width: 50%;
+	height: 50%;
+}
+
+.content-jpg__item img:hover {
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+.content-jpg__item:last-child {
+	margin-bottom: 0px;
+}
+
+
+/**                               FOOTER                               **/
+
+.footer {
+	background: rgb(40, 40, 40);
+}
+
+.footer__content {
+	padding: 50px 0px;
+}
+
+.content-footer__item {
+	margin: 0 auto 60px;
+	column-gap: 50px;
+	row-gap: 50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.content-footer__item img {
+	cursor: pointer;
+	transition: all 1s ease;
+	align-self: flex-start;
+}
+
+.content-footer__item img:hover {
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+.content-footer__item:last-child {
+	margin-bottom: 0px;
+}
