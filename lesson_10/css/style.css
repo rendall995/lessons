@@ -1,0 +1,10 @@
+@import url("reset.css");
+
+[class*="__container"] {
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.social-list_last-child-none li:last-child {
+	display: none;
+}
