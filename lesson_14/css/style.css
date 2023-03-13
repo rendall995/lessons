@@ -379,6 +379,7 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 40px;
+	max-width: 50vw;
 }
 
 .featured__title {
@@ -450,8 +451,7 @@
 
 .full-block__img {
 	height: 903px;
-	width: 705px;
-	max-width: 100%;
+	max-width: 50vw;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
