@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style-checkout.css">
+	<title>lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__content">
+					<div class="header__title">
+						<h1>Checkout</h1>
+					</div>
+					<div class="header__text">
+						<p>There are <span>3</span> products in your cart</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__checkout checkout">
+				<div class="checkout__container">
+					<div class="checkout__content">
+						<div class="checkout__left-side">
+							<div class="checkout__billing billing-checkout">
+								<div class="billing-checkout__title">
+									<h2>Billing Details</h2>
+								</div>
+								<form action="https://jsonplaceholder.typicode.com/posts" id="form" method="post"
+									class="billing-checkout__form form-billing">
+									<div class="form-billing__inputs">
+										<div class="form-billing__block">
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="First name*" name="username">
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="Last name*" name="user-last-name">
+										</div>
+										<div class="form-billing__block">
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="Address*" name="address">
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="Address line 2" name="Address line 2">
+										</div>
+										<div class="form-billing__block">
+											<div class="form-billing__input-select select-input">
+												<select name="Country" class="select-input__items">
+													<option class="select-input__item" value="" disabled selected>
+														Country*
+													</option>
+													<option class="select-input__item" value="Cherkasy Oblast">Cherkasy
+														Oblast
+													</option>
+													<option class="select-input__item" value="Chernihiv Oblast">
+														Chernihiv
+														Oblast
+													</option>
+													<option class="select-input__item" value="Chernivtsi Oblast">
+														Chernivtsi
+														Oblast
+													</option>
+													<option class="select-input__item" value="Dnipropetrovsk Oblast">
+														Dnipropetrovsk
+														Oblast</option>
+													<option class="select-input__item" value="Donetsk Oblast">Donetsk
+														Oblast
+													</option>
+													<option class="select-input__item" value="Ivano-Frankivsk Oblast">
+														Ivano-Frankivsk
+														Oblast</option>
+													<option class="select-input__item" value="Kharkiv Oblast">Kharkiv
+														Oblast
+													</option>
+													<option class="select-input__item" value="Kherson Oblast">Kherson
+														Oblast
+													</option>
+													<option class="select-input__item" value="Khmelnytskyi Oblast">
+														Khmelnytskyi
+														Oblast</option>
+													<option class="select-input__item" value="Kirovohrad Oblast">
+														Kirovohrad
+														Oblast
+													</option>
+													<option class="select-input__item" value="Kyiv Oblast">Kyiv Oblast
+													</option>
+												</select>
+											</div>
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="City/Town*" name="City/Town*">
+										</div>
+										<div class="form-billing__block">
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="Postcode / ZIP*" name="Postcode / ZIP*">
+											<input class="form-billing__input" required autocomplete="on" type="tel"
+												form="form" placeholder="Phone*" name="Phone*">
+										</div>
+										<div class="form-billing__block">
+											<input class="form-billing__input" required autocomplete="on" type="text"
+												form="form" placeholder="Postcode / ZIP*" name="Postcode / ZIP*">
+											<input class="form-billing__input" required autocomplete="on" type="tel"
+												form="form" placeholder="Phone*" name="Phone*">
+										</div>
+									</div>
+									<div class="form-billing__middle-block block-middle">
+										<div class="block-middle__textarea">
+											<textarea name="Additional information"
+												placeholder="Additional information"></textarea>
+										</div>
+										<div class="block-middle__radio-body body-radio">
+											<div class="body-radio__item">
+												<input id="radio-01" required type="checkbox" name="choose"
+													value="Create Account">
+												<label for="radio-01">Create Account</label>
+											</div>
+											<div class="body-radio__item">
+												<input id="radio-02" required type="checkbox" name="choose"
+													value="Ship to a different address?">
+												<label for="radio-02">Ship to a different address?</label>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div class="billing-checkout__apply apply">
+									<div class="apply__title">
+										<h2>Apply Coupon to get discount!</h2>
+									</div>
+									<form class="apply__coupon-body body-coupon">
+										<input type="text" required autocomplete="on" placeholder="Coupon code"
+											id="coupon-01" class="body-coupon__input">
+										<button class="body-coupon__button" type="submit">Apply Code</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="checkout__right-side">
+							<div class="checkout__order order-checkout">
+								<div class="order-checkout__title">
+									<h3>Your Order</h3>
+								</div>
+								<div class="order-checkout__product product">
+									<div class="product__header">
+										<p>Product</p>
+										<p>Subtotal</p>
+									</div>
+									<div class="product__items">
+										<div class="product__item">
+											<div class="product__image">
+												<img src="img/product/01.png" alt="Product">
+											</div>
+											<div class="product__text-block text-block-product">
+												<div class="text-block-product__name">
+													<h3>Hollow Port</h3>
+												</div>
+												<div class="text-block-product__info">
+													<div class="text-block-product__color">
+														<p>Brown</p>
+													</div>
+													<div class="text-block-product__size">
+														<p>XL</p>
+													</div>
+													<div class="text-block-product__amount">
+														<p>1 X 36.00</p>
+													</div>
+												</div>
+											</div>
+											<div class="product__price">
+												<p class="bold-price">$36.00</p>
+											</div>
+										</div>
+										<div class="product__item">
+											<div class="product__image">
+												<img src="img/product/02.png" alt="Product">
+											</div>
+											<div class="product__text-block text-block-product">
+												<div class="text-block-product__name">
+													<h3>Hollow Port</h3>
+												</div>
+												<div class="text-block-product__info">
+													<div class="text-block-product__color">
+														<p>Brown</p>
+													</div>
+													<div class="text-block-product__size">
+														<p>XL</p>
+													</div>
+													<div class="text-block-product__amount">
+														<p>1 X 36.00</p>
+													</div>
+												</div>
+											</div>
+											<div class="product__price">
+												<p class="bold-price">$36.00</p>
+											</div>
+										</div>
+										<div class="product__item">
+											<div class="product__image">
+												<img src="img/product/03.png" alt="Product">
+											</div>
+											<div class="product__text-block text-block-product">
+												<div class="text-block-product__name">
+													<h3>Hollow Port</h3>
+												</div>
+												<div class="text-block-product__info">
+													<div class="text-block-product__color">
+														<p>Brown</p>
+													</div>
+													<div class="text-block-product__size">
+														<p>XL</p>
+													</div>
+													<div class="text-block-product__amount">
+														<p>1 X 36.00</p>
+													</div>
+												</div>
+											</div>
+											<div class="product__price">
+												<p class="bold-price">$36.00</p>
+											</div>
+										</div>
+									</div>
+									<div class="product__delivery delivery">
+										<div class="delivery__list">
+											<div class="delivery__subtotal">
+												<p>Subtotal</p>
+												<p class="bold-price">$108</p>
+											</div>
+											<div class="delivery__shipping-cost">
+												<p>Shipping Cost (+)</p>
+												<p class="bold-price">$10.85</p>
+											</div>
+											<div class="delivery__discount">
+												<p>Discount (-)</p>
+												<p class="bold-price">$9.00</p>
+											</div>
+										</div>
+										<div class="delivery__total-payable">
+											<p>Total Payable</p>
+											<p class="bold-price">$88.15</p>
+										</div>
+									</div>
+								</div>
+								<div class="order-checkout__payment payment">
+									<div class="payment__header">
+										<h3>Payment</h3>
+									</div>
+									<form action="https://jsonplaceholder.typicode.com/posts" method="post" id="form1"
+										class="payment__form-items">
+										<div class="payment__form-item">
+											<input required type="radio" id="payment-01" name="payment"
+												value="Direct Bank Transfer">
+											<label for="payment-01">Direct Bank Transfer</label>
+										</div>
+										<div class="payment__form-item">
+											<input required type="radio" id="payment-02" name="payment"
+												value="Cash on delivery">
+											<label for="payment-02">Cash on delivery</label>
+										</div>
+										<div class="payment__form-item">
+											<input required type="radio" id="payment-03" name="payment"
+												value="Online Getway">
+											<label for="payment-03">Online Getway</label>
+										</div>
+									</form>
+									<div class="payment__images">
+										<div class="payment__image">
+											<img src="img/payment/paypal.svg" alt="Paypal">
+										</div>
+										<div class="payment__image">
+											<img src="img/payment/visa.svg" alt="Visa">
+										</div>
+										<div class="payment__image">
+											<img src="img/payment/mastercard.svg" alt="Mastercard">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<button class="footer__button" type="submit" form="form">Place an
+						Order</button>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
