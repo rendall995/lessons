@@ -285,7 +285,7 @@
 	display: flex;
 	flex-direction: column;
 	row-gap: 30px;
-	flex-basis: 0 0 38.229572%;
+	flex-basis: 38.229572%;
 	/* 393/1028 */
 }
 
@@ -352,7 +352,7 @@
 
 .topics-right {
 	display: flex;
-	flex-basis: 0 0 58.85214%;
+	flex-basis: 58.85214%;
 	/* 605/1028 */
 }
 
