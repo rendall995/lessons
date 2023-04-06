@@ -1,0 +1,32 @@
+.title-40 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.12;
+	/* 45/40 */
+	color: #212B36;
+}
+
+.page-header {
+	text-align: center;
+	max-width: 570px;
+	margin: 0 auto;
+}
+
+.title-footer {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.3;
+	/* 26/20 */
+	color: #FFFFFF;
+	position: relative;
+}
+
+.title-footer::before {
+	content: "";
+	position: absolute;
+	height: 3px;
+	background-color: #FFFFFF;
+	width: 40px;
+	bottom: -20px;
+	left: 0;
+}
