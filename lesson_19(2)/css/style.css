@@ -1427,15 +1427,6 @@
 	transition: all 0.3s ease;
 }
 
-.socials__fb img,
-.socials__tw img,
-.socials__yt img,
-.socials__li img {
-	width: 100%;
-	height: 100%;
-	object-fit: none;
-}
-
 .socials__tw a,
 .socials__fb a,
 .socials__yt a,
