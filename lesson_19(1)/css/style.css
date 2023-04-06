@@ -1275,7 +1275,11 @@
 	color: #FFFFFF;
 	display: flex;
 	column-gap: 12px;
+	transition: all 0.3s ease;
 }
+
+.logo-item__location a:hover{
+	text-decoration: underline;
 
 .logo-item__location::before {
 	content: "";
