@@ -1,0 +1,42 @@
+/*     text-block    */
+
+.header-text-block {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto 70px;
+}
+
+.name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.33;
+	/* 24/18 */
+	color: #3056D3;
+}
+
+.name:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.12;
+	/* 45/40 */
+	color: #212B36;
+}
+
+.title:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.text {
+	font-weight: 500;
+}
+
+.name:hover,
+.title:hover {
+	text-decoration: underline;
+}
